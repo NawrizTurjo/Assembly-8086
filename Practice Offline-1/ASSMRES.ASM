@@ -2,26 +2,25 @@
     NEWLINE DB 13,10,'$'
 
 PRINT_NUMBER PROC
-        MOV BX, 10
-        XOR CX, CX
+    MOV BX, 10
+    XOR CX, CX
 
-        NEXT_DIGIT:
-            XOR DX, DX
-            DIV BX
-            PUSH DX
-            INC CX
-            CMP AX, 0
-            JNZ NEXT_DIGIT
+    NEXT_DIGIT:
+        XOR DX, DX
+        DIV BX
+        PUSH DX
+        INC CX
+        CMP AX, 0
+        JNZ NEXT_DIGIT
 
-        PRINT_LOOP:
-            POP DX
-            ADD DL, '0'
-            MOV AH, 2
-            INT 21H
-            LOOP PRINT_LOOP
+    PRINT_LOOP:
+        POP DX
+        ADD DL, '0'
+        MOV AH, 2
+        INT 21H
+        LOOP PRINT_LOOP
 
-            RET
-
+    RET
 PRINT_NUMBER ENDP
 
 INPUT_CHAR PROC
