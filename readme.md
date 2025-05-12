@@ -18,7 +18,7 @@ The code examples in this repository are designed to run with emu8086, a popular
 
 ### Installation
 
-1. Download emu8086 from [emu8086.com](https://emu8086.com/) or another trusted source
+1. Download emu8086 from [emu8086.com](https://emu8086-microprocessor-emulator.en.softonic.com/download) or another trusted source
 2. Install the software following the on-screen instructions
 3. Register the software or use it in evaluation mode
 
@@ -103,7 +103,7 @@ END MAIN
 5. **Input Validation**: Check range of user inputs
 6. **Output Formatting**: Plan your output display carefully
 
-## For Juniors and New Users
+## For Starters
 
 1. **Start Simple**: Begin with basic programs and progress gradually
 2. **Understand Instructions**: Keep the 8086 instruction reference handy
@@ -130,7 +130,9 @@ Feel free to contribute by:
 
 ## License
 
-This repository is provided for educational purposes. Please respect any included license terms.
+This repository is provided for educational purposes.
+
+ <!-- Please respect any included license terms. -->
 
 ---
 
